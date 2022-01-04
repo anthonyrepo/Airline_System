@@ -25,9 +25,9 @@ public class Airline {
 		BufferedWriter bw = null;
 		
 		//File Location where airline data will be stored
-		File file = new File("");
+		File file = new File("../Airlines_Info.txt");
 		//File location where airline data will be stored
-		BufferedWriter writer = new BufferedWriter(new FileWriter(""));
+		BufferedWriter writer = new BufferedWriter(new FileWriter("../Airlines_Info.txt"));
 		
 		try {
 			br = new BufferedReader(new FileReader(file));
