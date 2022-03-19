@@ -80,4 +80,3 @@ Persistence across invocations means that all data must be saved in such a way t
 - The value of the current date is set in the initial GUI and is a read-only variable in the rest of the program
 - The value of the current date should be displayed in all relevant GUIs in the program
 - In particular, the airport arrival and departure screens display flight information only for the current date.
-### Notes
